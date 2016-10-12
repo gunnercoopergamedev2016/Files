@@ -1,1 +1,56 @@
-file:///H:/Documents/Basic%20WebPage.HTML
+<h1 align=center>basic web page by Gunner </h1>
+
+
+
+This is a web page<br>
+
+<div id="myQuestion" >?</div>
+<input type=button value="click me" onclick="{
+   document.getElementById('myQuestion').innerHTML = 'Hello Mate'
+}"><br>
+
+
+
+
+My picture<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTFpWCAELsU5xM92qKZ2H-YU62vaEy1--abCoD4vvc0mn-Q19dgJQ" width=400><br>
+Image from the web <img width=400 src="http://static.eclypsia.com/uploads/media/news/0001/90/thumb_89411_news_normal.jpeg"><br>
+
+
+<a href="http://www.google.ca">http://www.google.ca</a><br>
+
+This is <b>bold</b> this is <i>italic</i>. This is both   <br>
+
+<table border=1>
+
+  <tr><td>Michael</td><td>Ellis</td><td>606</td></tr>
+
+  <tr><td>Chayce</td><td>Gunner</td><td>760</td></tr>
+
+</table><br>
+
+Here is a list of my fav 5 foods
+<ul>
+   <li> Blood of The Weak
+   <li> Damascus Steel
+   <li> Lemons
+   <li> Grenades
+   <li> A Hail Of Bullets
+</ul>
+
+
+
+
+
+
+
+
+
+<div id="myDiv01" style="position:relative;left:0;top:0;">Wow</div>
+
+<input type=button value="Go Right" onclick="{
+   my01 = document.getElementById('myDiv01')
+   my01.style.left = parseInt(my01.style.left ) + 20 + 'px'
+
+}">
+
+
